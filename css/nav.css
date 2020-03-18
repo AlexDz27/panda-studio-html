@@ -1,0 +1,33 @@
+.header-nav {
+	padding-top: 22px;
+	padding-bottom: 22px;
+	background-color: #fff; /* todo: delete */
+}
+
+.nav {
+	display: flex;
+}
+
+.nav-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	margin-left: auto;
+}
+
+.nav-list__item {
+	margin-right: 45px;
+}
+
+.nav-list__item-main-link {
+	margin-right: 100px;
+}
+
+.nav__main-link-container {
+	
+}
+
+.nav__main-link {
+	font-size: 28px;
+}
