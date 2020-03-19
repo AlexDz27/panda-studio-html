@@ -1,37 +1,10 @@
+.body-article__hero {
+	margin-bottom: 70px;
+}
+
 .article {
-	max-width: 700px;
-  margin-bottom: 180px;
+	max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
-}
-
-.article__title {
-	font-weight: lighter;
-  font-size: 42px;
-  line-height: 50px;
-  text-align: center;
-}
-@media (max-width: 605px) {
-	.article__title {
-		font-size: 38px;
-	}
-}
-
-.article__text {
-	color: #464646;
-	transition: color .2s;
-}
-.article__text:hover {
-	/*color: #2ca8ff;*/
-	color: #2583c5;
-}
-
-.article__title-link {
-	transition: color .2s;
-	color: #464646;
-	display: block;
-}
-.article__title-link:hover {
-	color: #2ca8ff;
 }
