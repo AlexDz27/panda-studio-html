@@ -1,0 +1,19 @@
+.price-catalogue {
+	margin-bottom: 250px;
+}
+
+.price-catalogue__title {
+	font-weight: lighter;
+  font-size: 37px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.price-catalogue__images-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.price-catalogue-images-container__column {
+	width: 500px;
+}

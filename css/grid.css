@@ -4,3 +4,17 @@
 	box-sizing: border-box;
 	padding: 0 20px;
 }
+
+.two-column-section {
+	display: flex;
+	justify-content: space-around;
+}
+
+.two-column-section__left-column {
+	width: 450px;
+}
+
+.column-section__title {
+	font-weight: lighter;
+	font-size: 42px;
+} 

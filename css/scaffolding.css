@@ -6,7 +6,9 @@ body {
   font-weight: 300;
   line-height: 30px;
   color: #464646;
-  background-color: #d6d6d6; /* todo: delete */
+  /*background-color: #d6d6d6; /* todo: delete */
+
+  min-height: 2200px;
 }
 
 img {
@@ -16,6 +18,26 @@ img {
 
 a {
 	text-decoration: none;
+}
+
+section {
+  font-family: 'Roboto', 'Open Sans', 'Arial', sans-serif;
+}
+
+.read-blog {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  text-align: center;
+  padding: 20px 40px;
+  border: 1px solid #616161;
+  font-size: 24px;
+  color: #464646;
+  transition: color .4s;
+}
+.read-blog:hover {
+  color: #116fa7;
+  border: 1px solid #116fa7;
 }
 
 .visually-hidden:not(:focus):not(:active),
