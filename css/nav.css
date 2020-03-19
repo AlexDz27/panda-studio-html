@@ -6,6 +6,12 @@
   width: 100%;
   top: 0;
 }
+@media (max-width: 605px) {
+	.header-nav {
+		padding-top: 8px;
+    padding-bottom: 8px;
+	}
+}
 
 .nav {
 	display: flex;
@@ -17,6 +23,15 @@
 	padding: 0;
 	display: flex;
 	margin-left: auto;
+}
+@media (max-width: 605px) {
+	.nav-list {
+		display: none;
+	}
+
+	.nav__main-link-container {
+		margin: 0 auto;
+	}
 }
 
 .nav-list__item {

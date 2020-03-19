@@ -1,5 +1,5 @@
 .container {
-	width: 1200px;
+	max-width: 1200px;
 	margin: 0 auto;
 	box-sizing: border-box;
 	padding: 0 20px;
@@ -9,12 +9,29 @@
 	display: flex;
 	justify-content: space-around;
 }
+@media (max-width: 920px) {
+	.two-column-section {
+		flex-direction: column;
+    align-items: center;
+	}
+}
 
 .two-column-section__left-column {
-	width: 450px;
+	max-width: 450px;
 }
+@media (max-width: 920px) {
+	.two-column-section__left-column {
+		margin-bottom: 100px;
+	}
+}
+
 
 .column-section__title {
 	font-weight: lighter;
 	font-size: 42px;
-} 
+}
+@media (max-width: 920px) {
+	.column-section__title {
+		text-align: center;
+	}
+}

@@ -4,3 +4,8 @@
 	background-color: #323437;
 	color: #ccc;
 }
+@media (max-width: 605px) {
+	.footer {
+		padding: 8px 0;
+	}
+}

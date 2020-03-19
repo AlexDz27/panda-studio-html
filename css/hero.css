@@ -11,6 +11,13 @@
 	margin-top: 79px;
 	margin-bottom: 150px;
 }
+@media (max-width: 605px) {
+	.hero {
+		margin-top: 0;
+		min-height: 440px;
+		margin-bottom: 90px;
+	}
+}
 
 .hero-title {
 	margin-bottom: 100px;
@@ -23,6 +30,12 @@
   line-height: 1.35;
 	opacity: 0;
 	transition: opacity .3s;
+}
+@media (max-width: 605px) {
+	.hero-title {
+		margin-bottom: 0;
+		font-size: 32px;
+	}
 }
 
 @keyframes fade-out {
